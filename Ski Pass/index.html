@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ski Pass Board Game</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <main>
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid text-center hero-section">
+      <div class="container">
+        <h1 class="display-4 bungee-s">SKI PASS</h1>
+        <p class="lead">Enter the mountains</p>
+        <a href="buy_now.html" class="btn btn-light btn-lg">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- Game Details Section -->
+    <div id="game-details" class="container my-6">
+      <h2 class="text-center mb-5">About Ski Pass</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Resources/Ski_pass.png" class="img-fluid rounded" alt="Ski Pass">
+        </div>
+        <div class="col-md-6">
+          <p>Ski Pass is a board game for 2-6 players. Collecting cards, completing routes and dealing with tricky
+            terrain.
+            Players take turns travelling the mountains and conquering the slopes in an adventure to decide who is going
+            to be the
+            leader for your next snowy holiday.</p>
+          <ul>
+            <li>A board familiar to any ski/snowboard goers</li>
+            <li>Simple instructions - tailor the complexity</li>
+            <li>Carefully designed game pieces and cards</li>
+            <li>Average game time: 60-90 minutes</li>
+            <li>Suitable for all ages</li>
+          </ul>
+          <p>Read on to find out more...</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="tabs">
+      <div class="container mt-3">
+        <nav>
+          <div class="nav nav-tabs" role="tablist">
+            <a class="nav-link active bungee-s" data-toggle="tab" href="#nav-basic" role="tab" aria-selected="true">The
+              Basics</a>
+            <a class="nav-link bungee-s" data-toggle="tab" href="#nav-slopes" role="tab" aria-selected="false">The
+              Slopes</a>
+            <a class="nav-link bungee-s" data-toggle="tab" href="#nav-rules" role="tab" aria-selected="false">The
+              Rules</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="tab-content" id="nav-tabContent">
+
+        <!-- Basics -->
+        <div class="container my-5 tab-pane fade show active" id="nav-basic" role="tabpanel">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="Resources/Ski_pass_icon.png" class="card-img-top" alt="Setup">
+                <div class="card-body">
+                  <h5 class="card-title">Step 1: Setup</h5>
+                  <p class="card-text">Are you a skier or a snowboard?
+                    <br>Either way, first step is pick your favourite playing piece and hand out your SkiRun cards.
+                    After that select your starting routes and head off.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="Resources/Ski_pass_route.png" class="card-img-top" alt="Gameplay">
+                <div class="card-body">
+                  <h5 class="card-title">Step 2: Gameplay</h5>
+                  <p class="card-text">Play cards to Ski down slopes, go up lifts or cross between resorts.
+                    Keep going to complete your routes and master the slopes.
+                    If you want you can play with wildcards to mix up the game and keep players on their toes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="Resources/Ski_pass_win.png" class="card-img-top" alt="Winning">
+                <div class="card-body">
+                  <h5 class="card-title">Step 3: Winning</h5>
+                  <p class="card-text">Who wins? The fastest? The most skilled? The least falls?
+                    <br> No? The one with the most points! <br> Get points for skiing slopes and completing routes.
+                    The winner gets a free round of drinks during apres!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Board -->
+        <div class="container my-5 tab-pane fade" id="nav-slopes" role="tabpanel">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+              <img src="Resources/Ski_pass_board.png" class="img-fluid" alt="Ski Pass">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 my-5">
+              <h5>The board</h5>
+              <p class="text-left">The board is carefully crafted mountain side featuring slopes from green to black,
+                off-piste sections and bus routes.
+                <br>
+                Do you try and complete long routes like Chinaillon to Cote 2000 or keep them short and sweet like Le
+                Lachat
+                to Le Grand Bornand
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The rules-->
+        <div class="container my-5 tab-pane fade" style="font-size: 15px;" id="nav-rules" role="tabpanel">
+          <div class="row">
+            <div class="col-md-12" style="background-color: #f1f1f1">
+              <h4>The Beginning</h4>
+              <ul style="list-style-type: none;padding-left: 0;">
+                <li>Give out 5 SkiRun Cards per player</li>
+                <li>Give out 5 SkiRoute Cards per player (they may discard up to 2)</li>
+                <li>Each player chooses if they are a skier or snowboarder</li>
+                <li><i>If playing Full SkiDay</i> - Give out 5 SkiDay Cards</li>
+              </ul>
+              <p>The player who fell over most recently on a ski trip starts and play continues clockwise <br>
+                On each go a player can either:
+              <ul>
+                <li>Pick up 2 SkiRun cards or 1 Snowboard Card</li>
+                <li>Lay one run</li>
+                <li>Pick up some SkiRoute cards</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12" style="background-color: #cfd1ec">
+              <h4>Skiers vs Snowboards</h4>
+              <p>At the Beginning of the game the players must choose if they are a skier or a snowboarder (aiming for
+                an even split). Some SkiDay cards only affect one group, as indicated on the card. <br> There are also
+                certain runs on the board marked with a set of skies or a snowboard, for these runs a player must lay
+                the run as usual plus lay one extra GoggleCard if the symbol matches their ski/snowboard status</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" style="background-color: lightpink;">
+              <h4>Cards</h4>
+            </div>
+          </div>
+          <div class="row indented-columns">
+            <div class="col-md-4" style="background-color: lightcyan;">
+              <h5>SkiRun</h5>
+              <p>The SkiRun cards equate to the run colours on the board (Green, Blue, Red, Black, Grey, 'Chair
+                Lift').
+                In order to claim a run you must have the correct number of the correct colour to handover on your
+                go.
+                <br><br> GoggleCards represent all colours and can be used on any run to make up numbres if you do not
+                have
+                the correct number of the correct colour. <br><br> In order to 'Go Off-Piste (claim a white run) any
+                colour
+                card can be used, you can handover the correct number of cards of one colour.
+              </p>
+            </div>
+            <div class="col-md-4" style="background-color: lightseagreen;">
+              <h5>SkiRoute</h5>
+              <p>These are the routes that a player must complete in order to earn points. The points to be gained
+                from
+                completing that route is shown on the card. <br><br> If a player does not complete that route then that
+                point amount is deducted from their score at the end. <br><br> At the beginning of a game a player is
+                given
+                5 SkiRoute Cards, they must keep a minimum of 3 and can choose to discard or keep the remaining.
+                <br><br>
+                A
+                player may then select more route cards on any of their goes throughout the game. In this instance
+                they
+                are given 3 card and they can discard up to 2.
+              </p>
+            </div>
+            <div class="col-md-4" style="background-color: lightsalmon;">
+              <h5>SkiDay - <i>Optional</i></h5>
+              <p>At the beginning of a game each player is given 5 SkiDay cards. <br> These cards fall into two
+                catergories:
+              <ul>
+                <li>Avant: For use on that players go, at the start of their go they can play a card that will
+                  impact
+                  their go and in some cases the following round(s)</li>
+                <li>Apres: For use at the end of the game; once scores are being tallied, players may play
+                  appropiate
+                  cards to increase their score</li>
+              </ul>Cards in a player's possession do not have to be used, they will just be wasted at the end of the
+              game.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" style="background-color: #cfd1ec;">
+              <h4>Bus Runs</h4>
+              <p>There are bus runs to travel between the resort villages; Chinaillon, Le Grand Bornand, St Jean De
+                Sixt and Le Clusaz. <br> In order to claim a bus route you must hand over 1 SkiRun card of each colour
+                plus a GoggleCard for each bus symbol on the run. You only need 1 ski piece for a bus route, when you
+                claim a route sit it on a bus. When all the buses are claimed the run is full. You gain 12 points for
+                1-bus runs and 16 points for 3-bus runs.</p>
+            </div>
+            <div class="col-md-6" style="background-color: azure;">
+              <h4>Scoring</h4>
+              <p>For each run laid you gain points, these points are indicated on the board and increase with the
+                length of the run claimed. <br><br> Keep track throughout the game, moving your board pieces as runs are
+                claimed or count it up at the end.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" style="background-color: bisque;">
+              <h4>Ending the Game</h4>
+              <p>When a player lays ski pieces taking them under 3 ski pieces remaining that begins the last round,
+                each player has one more turn (including the player who triggered the last round). <br> After gameplay
+                ends take it in turns to calculate points earned from runs laid (if you haven't done this as you go),
+                and then from routes completed. <br> If playing Full SkiDay version then also play any final cards of
+                these if wanted. <br> Winning: The game winner is whoever has the most points at the end of the game.
+                Congrats, and claim your 'Challis' of Grimbergen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="buy-now" class="container my-6">
+      <h2 class="text-center mb-5">Buy Now</h2>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>I know right, the best game ever. You could own this right now! (within 2-3 working days) all you have to
+            do is click buy now. <br>
+            You'll have the best time ever, like better than skiing or snowboarding <br>
+            And it's a lot cheaper than all that equipment!</p>
+          <div class="button-container">
+            <a href="buy_now.html" class="buy-btn btn  btn-light btn-lg" ;>Buy Now</a>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Ski Pass</h5>
+          <p>Ski or Snowboard up and down the slopes in this action-packed board game great for family nights. Settle
+            the debate for who is the best skier both on and off the mountain.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <p>Email: info@BoldChallisGames.com</p>
+          <p>Phone: (+44) 7706947161</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Ski Pass <a href="../index.html">
+        <img class="img-fluid rounded-circle" style="height:100%; max-height:50px; padding-left: 10px"
+          src="Resources/Grup.jpg" alt="company logo">
+      </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+</body>
+
+</html>
